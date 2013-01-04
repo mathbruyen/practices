@@ -1,3 +1,9 @@
+# Javascript in browser
+
+## CSS animations/transitions
+
+[Write animations/transitions in CSS](http://coding.smashingmagazine.com/2012/11/19/building-relationship-between-css-javascript/) and manage interaction by adding/removing classes in javascript. Detect browser support with Modernizr and provide a fallback using jQuery.
+
 # Design
 
 ## Baseline
