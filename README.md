@@ -11,7 +11,7 @@
 
 ## Configuration
 
-[Environment variables](http://www.12factor.net/config) without grouping under `dev`, `qa`. References to external systems should be made of URLs.
+[Environment variables](http://www.12factor.net/config) without grouping under `dev`, `qa`. References to backing services should preferably be made of [URLs](http://www.12factor.net/backing-services).
 
 # Javascript in browser
 
