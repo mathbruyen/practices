@@ -19,6 +19,10 @@
 
 # Javascript in browser
 
+## Feature sniffing
+
+Test for individual feature presence (like `if (el.classList) { /* */ }`), do not assume that having (or missing) one feature will mean having (or missing) any other, even if currently the combination does not exist.
+
 ## CSS animations/transitions
 
 [Write animations/transitions in CSS](http://coding.smashingmagazine.com/2012/11/19/building-relationship-between-css-javascript/) and manage interaction by adding/removing classes in javascript. Detect browser support with Modernizr and provide a fallback using jQuery.
