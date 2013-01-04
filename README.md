@@ -13,6 +13,10 @@
 
 [Environment variables](http://www.12factor.net/config) without grouping under `dev`, `qa`. References to backing services should preferably be made of [URLs](http://www.12factor.net/backing-services).
 
+## Process model
+
+[Share-nothing processes](http://www.12factor.net/concurrency) without sticky sessions to allow horizontal scalability. Restart on failure and daemonization handled by environment. Once started, the process listens to a port given in configuration so it can be referred by a URL and multiple can be spawned on the same physical machine.
+
 # Javascript in browser
 
 ## CSS animations/transitions
