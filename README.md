@@ -1,3 +1,14 @@
+# General
+
+## API design
+
+* consistent naming
+* defaulting and invalid input handling
+* thinking of all possible paths (users will try use it in an unexpected way)
+* let it be extensible
+* freeze input when passed by reference
+* [Details](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/)
+
 # Javascript in browser
 
 ## CSS animations/transitions
