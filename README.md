@@ -9,6 +9,10 @@
 * freeze input when passed by reference
 * [Details](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/)
 
+## Configuration
+
+[Environment variables](http://www.12factor.net/config) without grouping under `dev`, `qa`. References to external systems should be made of URLs.
+
 # Javascript in browser
 
 ## CSS animations/transitions
