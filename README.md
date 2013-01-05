@@ -7,6 +7,7 @@
 * [let it be extensible](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/#extensibility)
 * [freeze input](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/#the-reference-horror) when passed by reference
 * thinking about all possible (even the ones not expected at first) combinations
+* never reflect any underlying framework directly to allow switching
 
 ## Configuration
 
