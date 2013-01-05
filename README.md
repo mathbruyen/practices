@@ -2,12 +2,11 @@
 
 ## API design
 
-* consistent naming
-* defaulting and invalid input handling
-* thinking of all possible paths (users will try use it in an unexpected way)
-* let it be extensible
-* freeze input when passed by reference
-* [Details](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/)
+* [consistent naming](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/#consistency)
+* [defaulting and invalid input handling](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/#handling-arguments)
+* [let it be extensible](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/#extensibility)
+* [freeze input](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/#the-reference-horror) when passed by reference
+* thinking about all possible (even the ones not expected at first) combinations
 
 ## Configuration
 
